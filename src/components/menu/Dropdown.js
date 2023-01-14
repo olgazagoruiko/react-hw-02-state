@@ -22,7 +22,7 @@ class Dropdown extends Component{
           className="Dropdown__toggle"
           onClick={this.toggle}
         >
-          {this.state.visible ? "Приховати" : "Показати"}
+          {this.state.visible ? "Приховати меню" : "Показати меню"}
         </button>
         {this.state.visible && (
           <ul className="Dropdown__menu">
